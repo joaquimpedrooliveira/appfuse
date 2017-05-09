@@ -33,6 +33,20 @@
                     <forkCount>1</forkCount>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-maven-plugin</artifactId>
+                <version>4.2.0</version>
+                <configuration>
+                    <driver>com.mysql.jdbc.Driver</driver>
+                    <url>jdbc:mysql://localhost/appfuse</url>
+                    <user>root</user>
+                    <password>root</password>
+                    <schemas>
+                        <schema>appfuse</schema>
+                    </schemas>
+                </configuration>
+            </plugin>           
         </plugins>
     </build>
 
