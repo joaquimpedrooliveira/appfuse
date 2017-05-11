@@ -86,6 +86,26 @@
             <artifactId>javax.servlet-api</artifactId>
             <scope>provided</scope>
         </dependency>
+        <!-- Demoiselle Behave dependencies -->
+		<dependency>
+			<groupId>br.gov.frameworkdemoiselle.component.behave</groupId>
+			<artifactId>demoiselle-behave-parser-jbehave</artifactId>
+			<version>1.5.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>br.gov.frameworkdemoiselle.component.behave</groupId>
+			<artifactId>demoiselle-behave-runner-webdriver</artifactId>
+			<version>1.5.2</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- Overrides default selenium version to fix bug on loading Chrome driver -->
+		<dependency>
+		    <groupId>com.google.guava</groupId>
+		    <artifactId>guava</artifactId>
+		    <version>20.0</version>
+		    <scope>test</scope>
+		</dependency>
     </dependencies>
 
     <profiles>
