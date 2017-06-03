@@ -70,6 +70,14 @@
                     <configuration>
                       <scanIntervalSeconds>0</scanIntervalSeconds>
                       <daemon>true</daemon>
+                        <webApp>
+                            <contextPath>/</contextPath>
+                        </webApp>
+                        <connectors>
+                            <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
+                               <port>8081</port>
+                            </connector>
+                        </connectors>
                     </configuration>
                   </execution>
                   <execution>

@@ -6,7 +6,7 @@ import br.gov.frameworkdemoiselle.behave.annotation.ScreenMap;
 import br.gov.frameworkdemoiselle.behave.runner.ui.Button;
 import br.gov.frameworkdemoiselle.behave.runner.ui.TextField;
 
-@ScreenMap(base="http://localhost:8080/", name="Página de Login")
+@ScreenMap(base="http://localhost:8081/", name="Página de Login")
 public class LoginPage {
 
 	@ElementMap(name="Login", locatorType=ElementLocatorType.Id, locator="j_username")
