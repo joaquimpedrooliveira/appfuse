@@ -58,9 +58,4 @@ public class StartupListenerTest {
         assertTrue(sc.getAttribute(Constants.AVAILABLE_ROLES) != null);
         assertNotNull(sc.getAttribute(Constants.ASSETS_VERSION));
     }
-
-    @Test
-    public void testForcandoFalha() {
-        fail("Forçando uma falha.");
-    }
 }
