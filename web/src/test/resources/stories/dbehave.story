@@ -7,7 +7,7 @@ Desejo efetuar login
 
 Cenário: Login com sucesso
 Dado que vou para a tela "Página de Login"
-Quando informo "admin" no campo "Login" 
+Quando informo "admin" no campo "Login"
 Quando informo "admin" no campo "Senha"
 Quando clico em "Botão Entrar"
 Então vou para a tela "Página Inicial"

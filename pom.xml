@@ -81,7 +81,7 @@
         <!-- Framework/Plugin versions -->
         <appfuse.version>3.5.0</appfuse.version>
 	<java.version>1.7</java.version>
-	<jdbc.password>root</jdbc.password>
+	<jdbc.password>mysql</jdbc.password>
     </properties>
   <modules>
     <module>core</module>
