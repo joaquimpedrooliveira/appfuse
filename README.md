@@ -2,7 +2,7 @@
 Aplicação web de exemplo gerada com Appfuse.
 
 ## Extensões
-- Testes funcionais com Demoiselle Behave
+- Testes funcionais com [Demoiselle Behave](https://github.com/demoiselle/behave)
 - Geração de relatórios do JBehave formatados
 
 ## Configurações
