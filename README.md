@@ -10,7 +10,7 @@ Aplicação web de exemplo gerada com Appfuse.
 
 - Porta do Jetty: o valor padrão é **`8080`**. Configurado via propriedade do maven (`-Djetty.port=8080`).
 
-- Testes unitários utilizam MySQL rodando na mesma máquina (`http://localhost:3306`). Assume-se que o serviço estará rodando;
+- Testes unitários utilizam MySQL rodando na mesma máquina (`mysql://localhost:3306/appfuse`). Assume-se que o serviço estará rodando;
   - Usuário: `root`, configurável via propriedade do maven (`-Djdbc.username=root`);
   - Senha: `mysql`, configurável via propriedade do maven (`-Djdbc.password=mysql`);
 
